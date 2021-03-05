@@ -1,0 +1,12 @@
+.done{
+    text-decoration: line-through;
+}
+.hide{
+    visibility: hidden;
+}
+.selected{
+    
+}
+body{
+    background: #000;
+}
