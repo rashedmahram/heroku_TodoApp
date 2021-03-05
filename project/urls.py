@@ -20,5 +20,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('todo/', include('App__Todo.urls', namespace="App__Todo")),
+    path('', include('App__Todo.urls', namespace="App__Todo")),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
